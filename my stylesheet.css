@@ -12,42 +12,28 @@ body, html {
      margin-top:57px;
 }
   
-.coverpage{
-     padding:0; 
+#coverpage{
+     padding:0;
      margin-left:0; 
-      background-color:black; 
-      postion:fixed; 
-      top:0; 
-      float:left;
+     background-color:black; 
+     postion:fixed; 
+     top:0; 
+     float:left;
 }
 
 #coverimage{
      width: 60px;
      height: 60px;
 }
- li a {
-     background-color:transparent;
-     display: block;
-     color:#222;
-     text-align: center;
-     padding: 20px 16px;
-     text-decoration: none;
-}
-	
- li a:hover{
-     background-color:#062675;
-     color:white;
-}
 
 .navbar{
      position:fixed;
      top:0;
      width:100%;
+	 background-color: #555; 
+	 overflow: auto; 
 }
 	
-     div li {
-     float: left;
-}
 	
   .caption {
      position: absolute;
@@ -63,12 +49,6 @@ body, html {
      padding: 15px;
      font-size: 50px;
      letter-spacing: 10px;
-}
-
-.navbar {
-  width: 100%; 
-  background-color: #555; 
-  overflow: auto; 
 }
 
 .navbar a {
