@@ -1,0 +1,93 @@
+<!doctype html>
+<html>
+	<head>
+	<meta charset="UTF-8">
+	<title>Kandy</title>
+	<link rel="icon" href="1.png" type="image/png">
+		<style>
+		h1, h2{
+		text-align:center
+		}
+		
+		h3{
+		padding-bottom: o;
+		padding-left: 40px;
+		padding-right: 40px;
+		padding-top2px;
+		}
+		img {
+		clear: both;
+		display: block;
+		margin-right:auto;
+		margin-left: auto;
+		}
+		p{
+		padding-bottom:0;
+		padding-left: 40px;
+		padding-right: 40px;
+		padding-top: 2px;
+		font-size:20px;
+		}
+		</style>
+		<link rel="stylesheet" href="my stylesheet.css">
+	<title></title>
+</head>
+<body>
+	<div class="navbar">
+         <link rel="stylesheet" href="my stylesheet.css">
+		 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+         <a id = "coverpage" href="Cover Page.html"><img id = "coverimage" src="1.png" alt="1.png"></a>
+         <a class = "active" href = "#"><i class = "fa fa-home"></i></a>
+         <a href = "#"><i class = "fa fa-map"></i></a>
+         <a href = "#"><i class="fa fa-newspaper-o"></i></a>
+		 <a href = "#"><i class="fa fa-cart-plus"></i></a>
+		 <a href = "#"><i class = "fa fa-question-circle"></i></a>
+	</div>
+	<h1> Kandy </h1>
+	<p>Kandy is a large city in central Sri Lanka. It's set on a plateau surrounded by mountains, which are home to tea plantations and biodiverse rainforest.
+	The city's heart is scenic Kandy Lake (Bogambara Lake), which is popular for strolling. Kandy is famed for sacred Buddhist sites, including the Temple of
+	the Tooth (Sri Dalada Maligawa) shrine, celebrated with the grand Esala Perahera annual procession.</p>
+	
+	<h2> What are the best things to do in Kandy ? </h2>
+	<h3> Temple of Sacred Tooth Relic, Kandy</h3>
+	<img src = "Images/toothrelic.jpg" alt ="pic of the sacred temple of tooth relic">
+	<p>This ornate golden-roofed temple houses the most important Buddhist relic in Sri Lanka - a tooth of Buddha brought to the island in the 4th century. 
+		The temple was built between 1867 and 1707 specifically to honour this sacred relic, and the temple has long since been a place of importance for 
+		both Sri Lankan and international visitors. </p>
+		
+	<h3> Royal Botanical Gardens, Peradeniya</h3>
+	<img src="Images/BotanicalGarden.jpg" alt = "A picture of the botanical garden" style="width: 500px">
+	<p>If these gardens feel insanely grand, it’s because they were formerly reserved exclusively for Kandyan royals to stroll through before they were 
+	transformed into the Botanic Gardens in1821 at the behest of the ruling British.
+	Today, even measly commoners like us are allowed to wander the grounds, which are now home to over 10,000 trees spread across 60 hectares.
+	The gardens also showcase all of Sri  Lanka’s unique flora along with representative species from all around the tropical world. </p>
+	
+	<h3>Three - Historic Temple Loop of Kandy </h3>
+	<p>The three temples, Gadaladeniya Viharaya, Ambakke, and Lankathilaka form the aptly named 'three temple loop', and serve as a living history 
+	to Sri Lanka's extensive Buddhist heritage and craftsmanship.  </p>
+	
+	<h3> Gadaladeniyia Temple</h3>
+	<img src = "Images/Gadaladeniya.jpg" alt = " A picture of the temple Gadaladeniya">
+	<h3>Ambakke Devalaya </h3>
+	<img src="Images/ambakke.jpg" alt = " A picture of Ambakke Devalaya">
+	<h3>Lankathilaka Temple</h3>
+	<img src= "Images/Lankathilaka.jpg" alt ="A picture of Lankathilaka">
+	
+	<h3>Bahirawakanda Vihara Buddha Statue</h3>
+	<img src="Images/bahirawakanda-mob.jpg" alt = "A picture of the Buddha statue">
+	<p> The beautiful Bahirawakanda buddha statue sits atop Bahirawa Kanda hill as if overseeing the daily life of Kandyans below. 
+	Bahirawakanda offers incredible panoramic views over the green and blue hues of Kandy and beyond and is best to visit at sunset
+	when the city is bathed in a golden glow as the sun drops behind the mountains in the distance. </p>
+	
+	<h3>Udawatta Kele Sanctuary</h3>
+	<img src="Images/udawattakele-forest.jpg" alt = "A picture of Udawattakele Forest">
+	<p> Once the king's personal garden, Udawattakele is now an urban forest and wildlife sanctuary home to several species of mammals,
+	reptiles, and other animals. There's a hiking path within the sanctuary, which is about a 5km round trip. </p>
+	<h3>The Kandy Lake</h3>
+	<img src="Images/Lake.jpg" alt = "A picture of the kandy lake" style = "width: 500;">
+	<p> Right at the heart of Kandy is the Kandy Lake; surprisingly peaceful despite the bustling road that winds around it, and 
+	the backdrop to many of the city’s major attractions including the Temple of the Tooth Relic, and Udawattakele Forest reserve. 
+	It takes about an hour to walk the lake’s circumference (just over 3kms) </p>
+</body>
+</html>
+	
