@@ -23,11 +23,11 @@ body, html {
 
 .coverpage{
      padding:0; 
-	 margin-left:0; 
-	 background-color:black; 
-	 postion:fixed; 
-	 top:0; 
-	 float:left;
+     margin-left:0; 
+      background-color:black; 
+      postion:fixed; 
+      top:0; 
+      float:left;
 }
 
 img{
