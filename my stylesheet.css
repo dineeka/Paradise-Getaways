@@ -20,7 +20,20 @@ body, html {
      overflow:hidden;
      background-color:white;
 }
-	
+
+.coverpage{
+     padding:0; 
+	 margin-left:0; 
+	 background-color:black; 
+	 postion:fixed; 
+	 top:0; 
+	 float:left;
+}
+
+img{
+     width: 60px;
+     height: 60px;
+}
  li a {
      background-color:transparent;
      display: block;
