@@ -1,0 +1,71 @@
+body, html {
+     height: 100%;
+     margin: 0;
+ }
+ 
+ .bg {
+     background-image: url("Cover2.jpg");
+     height: 100%; 
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     margin-top:57px;
+}
+  
+#coverpage{
+     padding:0;
+     margin-left:0; 
+     background-color:black; 
+     postion:fixed; 
+     top:0; 
+     float:left;
+}
+
+#coverimage{
+     width: 60px;
+     height: 60px;
+}
+
+.navbar{
+     position:fixed;
+     top:0;
+     width:100%;
+	 background-color: #555; 
+	 overflow: auto; 
+}
+	
+	
+  .caption {
+     position: absolute;
+     left: 0;
+     top: 35%;
+     width: 100%;
+     text-align: center;
+     color: #000;
+}
+
+  .caption span.border {
+     color: #fff;
+     padding: 15px;
+     font-size: 50px;
+     letter-spacing: 10px;
+}
+
+.navbar a {
+  float: left; 
+  text-align: center; 
+  width: 14.5%; 
+  padding: 12px 0; 
+  transition: all 0.3s ease; 
+  color: white; 
+  font-size: 36px; 
+}
+
+.navbar a:hover {
+  background-color: #000; 
+}
+
+.active {
+  background-color: #04AA6D; 
+}
+
