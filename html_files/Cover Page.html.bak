@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <meta charset="UTF-8">
+   <title>Paradise Getaways</title>
+   <link rel="icon" href="../images/1.png" type="image/png">
+   <link rel = "stylesheet" href = "../css_files/my stylesheet.css">
+
+ </head>
+ <body>
+
+     <div class="bg">
+       <div class="caption">
+          <span class="border">Reaching incredible destinations within your reach</span>
+       </div>
+     </div>
+
+     <div class="navbar">
+         <link rel="stylesheet" href="../css_files/my stylesheet.css">
+		 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+         <a id = "coverpage" href="Cover Page.html"><img id = "coverimage" src="../images/1.png" alt="Logo"></a>
+         <a class = "active" href = "Cover Page.html"><i class = "fa fa-home"></i></a>
+         <a href = "#"><i class = "fa fa-map"></i></a>
+         <a href = "#"><i class="fa fa-pencil-square-o"></i></a>
+		 <a href = "#"><i class="fa fa-cart-plus"></i></a>
+		 <a href = "#"><i class = "fa fa-picture-o"></i></a>
+		 <a href = "#"><i class = "fa fa-question-circle"></i></a>
+     </div>
+	 
+	 <img src = "../Images/SLMap.jpg" alt="Map containing the 4 cities marked" usemap =#Map>
+	 <map name = "Map">
+		<area shape = "rect" coords = "519, 447, 829, 569" href="anuradhapura.html">
+		<area shape = "rect" coords = "595, 713, 772, 784" href ="Kandy.html">
+		<area shape = "rect" coords = "631, 813, 932, 879" href ="nuwara eliya.html">
+		<area shape = "rect" coords = "500, 1053, 642, 1142" href ="Galle.html">
+	</map>
+
+
+ </body>
+</html>
