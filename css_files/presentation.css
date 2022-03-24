@@ -24,11 +24,10 @@ body{
 	font-size:25px;
 	font-family:verdana;
 	color:black;
-	padding-left:50px;
 }
 .team{
 	font-size:35px;
-	padding-left:50px;
 	text-align:center;
 	color:#4d4d33;
+	padding-top:50px; 
 }
