@@ -21,13 +21,13 @@ body{
 
 .name{						  /*styling the details about group members*/
 	text-align:left;
-	font-size:15px;
+	font-size:25px;
 	font-family:verdana;
 	color:black;
 	padding-left:50px;
 }
 .team{
-	font-size:30px;
+	font-size:35px;
 	padding-left:50px;
 	text-align:left;
 	color:#4d4d33;
