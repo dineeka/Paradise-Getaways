@@ -30,4 +30,5 @@ body{
 	font-size:30px;
 	padding-left:50px;
 	text-align:left;
+	color:#4d4d33;
 }
