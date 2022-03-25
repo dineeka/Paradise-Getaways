@@ -33,7 +33,6 @@
 		}
 		.imgs{
 		padding-left:20px;
-		float:left;
 		}
 	 </style>
   </head>
