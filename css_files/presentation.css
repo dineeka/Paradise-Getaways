@@ -24,4 +24,22 @@ body{
 	font-family:verdana;
 	color:black;
 }
-
+.editor a{
+	text-decoration:none;
+	float:right;
+	font-size:20px;
+	margin-top:16px;
+	font-family:verdana;
+}
+a:link{
+	color: white;
+}
+a:visited{
+	color: purple;
+}
+a:hover{
+	color: #ffff99;
+}
+a:active{
+	color: red;
+}
