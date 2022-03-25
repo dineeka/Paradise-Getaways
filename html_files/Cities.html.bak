@@ -11,6 +11,9 @@
 	    h1, h2{
 		text-align:center
 		}
+		h1{
+		color: #5c0099;
+		}
 		
 		h3{
 		padding-bottom: o;
@@ -32,7 +35,14 @@
 		font-size:20px;
 		}
 		.imgs{
-		padding-left:20px;
+		float:center;
+		padding-left:150px;
+		padding-top = 20px;
+		}
+		caption{
+		font-family:georgia;
+		color:#33331a;
+		font-size:20px;
 		}
 	 </style>
   </head>
@@ -119,7 +129,31 @@
   
   
   
-    <h1 style="margin-top:80px;"> Galle </h1>
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<h1 style="margin-top:80px;"> Galle </h1>
 	<p> Galle is a main tourist attraction destination in Sri Lanka, 
 	which is situated on the southwestern tip. It has a long history
 	dating back to the past. It is a UNESCO World Heritage City. 
@@ -135,83 +169,50 @@
 	
 	<div>
 	<h2 class = "heading1"> Places to visit </h2>
-	<ul class = "list1">
-		<li>
-		<figure> 
+	
 		<img src = "../images/galle fort.png" width = "200" height = "200" class="imgs"> 
-		<figcaption> Dutch Fort </figcaption>
-		</figure></li>
-		<li>
-		<figure> 
+		<caption> Dutch Fort </caption>
+
 		<img src = "../images/galle lighthouse.png" width = "200" height = "200" class = "imgs">
-		<figcaption> Lighthouse </figcaption>
-		</figure></li>
-		<li>
-		<figure> 
+		<caption> Lighthouse </caption>
+		
 		<img src = "../images/galle meseum.png" width = "200" height = "200" class = "imgs">
-		<figcaption> National Museum </figcaption>
-		</figure></li>
-		<li>
-		<figure> 
+		<caption> National Museum </caption><br><br>
+		 
 		<img src = "../images/galle unawatuna beach1.png" width = "200" height = "200" class = "imgs">
-		<figcaption> Unawatuna Beach </figcaption>
-		</figure></li>
-		<li>
-		<figure> 
+		<caption> Unawatuna Beach </caption>
+	
 		<img src = "../images/galle hikkaduwa beach.png" width = "200" height = "200" class = "imgs">
-		<figcaption> Hikkaduwa Beach </figcaption>
-		</figure></li>
-		<li>
-		<figure> 
+		<caption> Hikkaduwa Beach </caption>
+	
 		<img src = "../images/galle rumassala.png" width = "200" height = "200" class = "imgs">
-		<figcaption> Rumassala Sanctuary </figcaption>
-		</figure></li>
-	</ul>
+		<caption> Rumassala Sanctuary </caption>
+	
 	</div>
 	
 	<div>
 	<h2 class = "heading2"> Things to do </h2>
-	<ul class = "list2">
-		<li>
-		<figure> 
+	
 		<img src = "../images/galle surfing.png" width = "200" height = "200" class = "imgs">
-		<figcaption> Surfing </figcaption>
-		</figure></li>
-		<li> 
-		<figure> 
+		<caption> Surfing </caption>
+		 
 		<img src = "../images/galle whale watching.png" width = "200" height = "200" class = "imgs">
-		<figcaption> Whale Watching </figcaption>
-		</figure></li>
-		<li>
-		<figure> 
+		<caption> Whale Watching </caption>
+		 
 		<img src = "../images/galle swimming.jpg" width = "200" height = "200" class = "imgs">
-		<figcaption> Swimming </figcaption>
-		</figure></li>
-		<li>
-		<figure> 
+		<caption> Swimming </caption>
+		 
 		<img src = "../images/galle scuba diving.png" width = "200" height = "200" class = "imgs">
-		<figcaption> Scuba Diving </figcaption>
-		</figure></li>
-		<li>
-		<figure> 
+		<caption> Scuba Diving </caption>
+		 
 		<img src = "../images/galle snorkeling.png" width = "200" height = "200" class = "imgs">
-		<figcaption> Snorkeling </figcaption>
-		</figure></li>
-		<li>
-		<figure> 
+		<caption> Snorkeling </caption>
+		
 		<img src = "../images/galle hiking.png" width = "200" height = "200" class = "imgs">
-		<figcaption> Hiking </figcaption>
-		</figure></li>
-	</ul>
+		<caption> Hiking </caption>
+		
     </div>
   
-  
-  
-  
-  
-  
-  
-  
-  </body>
+    </body>
 
 </html
