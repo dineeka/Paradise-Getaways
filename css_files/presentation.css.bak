@@ -19,9 +19,46 @@ body{
 }
 
 .name{						  /*styling the details about group members*/
-	text-align:left;
-	font-size:30px;
+	text-align:center;
+	font-size:25px;
 	font-family:verdana;
+	color:black;
+	padding-top:10px;
+}
+
+.team{
+	text-align:center;
+	font-size:30px;
+	padding-top:20px;
 	color:black;
 }
 
+.editor a{
+	text-decoration:none;
+	float:right;
+	font-size:20px;
+	margin-top:25px;
+	font-family:verdana;
+	padding-top:100px;
+	margin-right:10px;
+}
+
+a:link{
+	color: white;
+}
+
+a:visited{
+	color: purple;
+}
+
+a:hover{
+	color: #ffff99;
+}
+
+a:active{
+	color: red;
+}
+
+img{
+	background-color:black;
+}
