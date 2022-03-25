@@ -25,9 +25,20 @@ body{
 	font-family:verdana;
 	color:black;
 }
-.team{
+.team{                        /*styling the h2*/
 	font-size:35px;
 	text-align:center;
 	color:#4d4d33;
 	padding-top:50px; 
+}
+.editor a{                    /*styling the editor link*/
+	font-size:20px;
+	color: white;
+	margin-top: 20px;
+	margin-left: 20px;
+	padding-top: 50px;
+	text-decoration: none;
+}
+img{                           /*styling the logo*/ 
+	background-color: black;
 }
