@@ -1,0 +1,70 @@
+		#gallery{
+		background-color:rgba(61, 157, 206, 0.5);
+		float: left;
+		width: 38%;
+		padding: 12px 12px;
+		margin-top:0px;
+		}
+		
+		#zoom{
+		background-color:rgba(51, 0, 51, 0.5);
+		float: left;
+		width: 58%;
+		padding: 10px 10px;
+		}
+		
+		#img01{
+		height:488px;
+		width:780px;
+		}
+		
+		#description{
+		text-align:center;
+		padding-bottom:5px;
+		padding-top:5px;
+		margin-top:0;
+		margin-bottom:0;
+		font-size:20px;
+		}
+		
+		form img{
+		height:170px;
+		width:250px;
+		}
+		
+		.tbimg{
+		height:170px;
+		width:250px;
+		}
+		
+		h1{
+		background-color:rgba(95, 158, 160, 0.8);
+		text-align:center;
+		font-size:40px;
+		}
+		
+		#changeColor{
+		float:right;
+		text-align:right;
+		background-color:rgba(95, 158, 160, 0.8);
+		padding:19px; 
+		}
+		
+		#headingstyle{
+		margin-top:0px; 
+		text-align:center;
+		width:15%; 
+		margin-left:auto;
+		margin-right:auto;
+		}
+		
+		#menu{
+		margin-top:70px;
+		border-style:solid;
+		}
+		
+		#img5{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		}

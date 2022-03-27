@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Gallery</title>
+		<link rel="icon" href="../images/1.png" type="image/png">
+		<link rel="stylesheet" href="../css_files/gallery.css">
+		<script src="../js_files/gallery.js"></script> 
+		
+	</head>
+	
+	<body>
+	
+	<div class="navbar">
+         <link rel="stylesheet" href="../css_files/my stylesheet.css">
+		 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+         <a id = "coverpage" href="Cover Page.html"><img id = "coverimage" src="../images/1.png" alt="Logo"></a>
+         <a class = "active" href = "Cover Page.html"><i class = "fa fa-home"></i></a>
+         <a href = "#"><i class = "fa fa-map"></i></a>
+         <a href = "#"><i class="fa fa-pencil-square-o"></i></a>
+		 <a href = "#"><i class="fa fa-cart-plus"></i></a>
+		 <a href = "#"><i class = "fa fa-picture-o"></i></a>
+		 <a href = "#"><i class = "fa fa-question-circle"></i></a>
+    </div>
+	
+	 <div id="menu">
+		<div id="changeColor">
+			<form>Background Color:
+				<select name="bgcolors" onchange="changeBackgroundColor(this)">
+					<option value="white" selected>White</option>
+					<option value="DarkGray">Gray</option>
+					<option value="DarkCyan">Cyan</option>
+					<option value="LightGreen">Green</option>
+					<option value="black">Black</option>
+				</select>
+			</form>
+			<br>
+			<form>Text Color:
+				<select name="textcolor" size="1" onChange="updateTextColour(this)">
+					<option value="black" selected>Black</option>
+					<option value="PeachPuff">Light Red</option>
+					<option value="PowderBlue">Blue</option>
+					<option value="SpringGreen">Green</option>
+					<option value="white">White</option>
+				</select>
+			</form>
+		</div>
+	
+		<div id="headingstyle"><h1>Gallery</h1></div>
+	</div>
+		
+	<div id="gallery">
+	<img id="img1" class="tbimg" onmouseover="mouseOver(img1.src, img1.alt)"  src="../images/kandyperahera.jpg" alt="Kandy Perahera, Kandy." >
+	<img id="img2" class="tbimg" onmouseover="mouseOver(img2.src, img2.alt)"  src="../images/adamspeak.jpg" alt="Adams Peak, Rathnapura.">
+	<img id="img3" class="tbimg" onmouseover="mouseOver(img3.src, img3.alt)"  src="../images/sigiriya.jpg" alt="Sigiriya, Dambulla.">
+	<img id="img4" class="tbimg" onmouseover="mouseOver(img4.src, img4.alt)"  src="../images/kandygarden.jpg" alt="Peradeniya Garden, Peradeniya" >
+	<img id="img5" class="tbimg" onmouseover="mouseOver(img5.src, img5.alt)"  src="../images/stiltfishing.jpg" alt="Stilt Fishermen, Galle." >
+	</div>
+		
+	<div id="zoom">
+		<img id="img01" src="../images/kandyperahera.jpg" alt="Zoom Picture">
+		<p id="description">Kandy Perahera, Kandy.</p>
+	</div>
+	
+	
+
+	</body>
+</html>
