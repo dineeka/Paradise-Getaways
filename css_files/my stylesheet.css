@@ -154,3 +154,64 @@ hr {
 	top:25px;
 	left:0;
 }
+
+#header{
+	text-align:center;
+	font-size:60px;
+	
+}
+.header2{
+	text-align:center;
+	font-size:30px;
+	margin-top:10px;
+}
+
+#centeralign{
+	text-align:center;
+}
+
+.gal{
+	width:50%;
+	float:left;
+}
+
+.imgcat1{
+	width:96.5%;
+}
+
+.imgcat2{
+	width:48%;
+}
+
+.tblestyle{
+	width:100%;
+	text-align:justify;
+}
+
+#table{
+	width:100%;
+	text-align:center;
+}
+
+.cellwidth{
+	width:19%;
+}
+
+.trpimg{
+	width:95%;
+}
+
+.services{
+	display:inline-block;
+	width:23%;
+}
+
+.link1 {
+	text-decoration:none;
+	color:black;
+	font-size:25px;
+}
+
+.linkimg{
+	width:80%;
+}
