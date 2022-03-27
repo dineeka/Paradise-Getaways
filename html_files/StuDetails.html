@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Paradise Getaways</title>
+	<style>
+	.container{
+	float: right;
+	padding-left:auto;
+	padding-right:auto;
+	}
+	.stu{
+	font-size:20px;
+
+	}
+	</style>
+</head>
+<body>
+	<h1>About us </h1><br>
+	<div class="container">
+		<img src="1.png" alt="Picture of Harindi"  onmousemove="content1()" onmouseout="clear()" id="img1">
+		<div class = "stu" id="stu1">
+		</div>
+	</div>
+	<div class="container">
+		<img src="1.png"  alt="Picture of Diadri" onmousemove="content2()" id="img2">
+		<div class="stu" id="stu2">
+		</div>
+	</div>
+	<div class="container">
+		<img src="1.png"  alt="Picture of Dineeka" onmousemove="content3()" id="img3">
+		<div class="stu" id="stu3">
+		</div>
+	</div>
+	<div class="container">
+		<img src="1.png"  alt="Picture of Budwika" onmousemove="content4()"id="img4">
+		<div class="stu" id="stu4">
+		</div>	
+	</div>
+	<script>
+		function content1(){
+			document.getElementById("stu1").innerHTML= "Harindi Weerasinghe, Student1";
+		}
+		function content2(){
+			document.getElementById("stu2").innerHTML= "Diadri Weerasekara, Student2";
+		}
+		function content3(){
+			document.getElementById("stu3").innerHTML= "Dineeka Wimalaratne, Student3";
+		}
+		function content4(){
+			document.getElementById("stu4").innerHTML= "Budwika Egodawatta, Student4";
+		}	
+	</script>
+</body>
+</html>
