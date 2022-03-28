@@ -3,8 +3,7 @@ body, html {
     margin: 0;
 }
 
-
-#coverimage{
+/*#coverimage{
     width: 60px;
     height: 60px;
 }
@@ -15,13 +14,11 @@ body, html {
     background-color:black; 
     top:0; 
     float:left;
-}
+}*/
 
-
-
-.active {
+/*.active {
   background-color: #04AA6D; 
-}
+}*/
 
 .marq{
 	color:white;
@@ -380,13 +377,13 @@ img{
 	height: 70px; 
 	margin-bottom: 100px;
 }
-.logo2{
+/*.logo2{
 	background-color: black;
 	width: 213px;
 	height: 100px; 
 	padding-top: 0px;
 	margin-top: 0px;
-}
+}*/
 
 .editor a{
 	text-decoration:none;
@@ -413,7 +410,7 @@ a:active{
 	color: red;
 }
 	
-footer{
+/*footer{
 	width:100%;
 	position:relative;
 	bottom:0;
@@ -434,8 +431,7 @@ hr {
 
 .copyright {
 	text-align:center;
-}
-
+}*/
 
 /*
 .row{
