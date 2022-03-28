@@ -1,0 +1,79 @@
+<!doctype html>
+<html>
+   <head>
+     <style>
+	     * {font-family: Arial;}
+		 body {
+	         background-image: url("Sri Lanka.jpg");
+	         background-repeat: no-repeat;
+	         background-size: cover;
+	         margin:0;
+         }
+		 .container {
+	         width:100%;
+	         height:100%;
+	         position:fixed;
+	         background-color:rgba(167, 224, 245, 0.8);
+         }
+		 form {
+	         max-width:500px;
+	         width:90%;
+	         margin:10vh auto 0 auto;
+	         padding: 40px;
+	         border-radius: 3px;
+	         box-sizing: border-box;
+	         display:block;
+         }
+	 </style>
+   </head>
+   <body>
+     <div class="navbar">
+	     <link rel="stylesheet" href="my stylesheet.css">
+		 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+			<a id = "coverpage" href="Cover Page.html"><img id = "coverimage" src="1.png" alt="Logo"></a>
+			<a class = "active" href = "Cover Page.html"><i class = "fa fa-home"></i></a>
+			<a href = "#"><i class = "fa fa-map"></i></a>
+			<a href = "#"><i class="fa fa-pencil-square-o"></i></a>
+			<a href = "#"><i class="fa fa-cart-plus"></i></a>
+			<a href = "#"><i class = "fa fa-picture-o"></i></a>
+			<a href = "#"><i class = "fa fa-question-circle"></i></a>
+	 </div>
+	 
+     <div class = "container">
+	     <form action = "mailto:diadriweerasekera@gmail.com" method = "post">
+		     <h1><em> What are your questions? </em></h1>
+			 <div id = "nameid">
+			     <p> Name: 
+				 <input type = "text" name = "name" id = "username" size = "30">
+				 </p>
+			 </div>
+			 <div id = "emailid">
+			     <p> Email Address:
+				 <input type = "email" name = "email" id = "emailtype" size = "30">
+				 </p>
+			 </div>
+			 <div id = "subjectid">
+			     <p> Select the type of query you wish to submit: </p>
+				 <select name = "theme" id = "themetype" name = "theme">
+			          <option value = "default">Please select desired Query</option>
+			          <option value = "delivery"> Delivery of Products</option>
+		              <option value = "visited-places"> Queries on the places to visit</option>
+			          <option value = "additional-info">Queries on the cities</option>
+			          <option value = "product-info">Details on Product Information</option>
+			          <option value = "external-websites">Queries on External Websites</option>	
+			     </select>   
+			 </div>	
+			 <br>
+             <div id = "displayid">
+                 <label> Details of the query </label>
+                 <textarea name = "details" id = "displaydetails" rows = "10" cols = "50"></textarea>
+				 <input type = "button" id = "viewbtn" value = "View Query" onclick = "validateinputs(this.form)">
+			 </div>
+			 <br>
+			 <input type = "reset" value = "Edit" id = "editbtn">
+			 <input type = "submit" value = "Send" id = "sendbtn">
+		 </form>
+	 </div>
+	 <script src="Queryfinal.js"></script>
+   </body>
+</html>
