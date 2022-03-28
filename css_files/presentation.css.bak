@@ -52,7 +52,7 @@ a:visited{
 }
 
 a:hover{
-	color: #ffff1a;
+	color: #ffbf00;
 }
 
 a:active{
