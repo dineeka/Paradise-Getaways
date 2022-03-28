@@ -1,4 +1,4 @@
-var pos = 0; //Position in the array
+var place = 0; //Place in the array
 var correct = 0;
 const questions = [		
 		["1.  In which province is Anuradhapura located?", "Nothern Province","North Central Province", "North Western Province", "Eastern Province"],
@@ -26,15 +26,17 @@ var val = ["1", "2", "3", "4"];
 function getChoice(choi, val){
     return "<div class='container'><input type='radio' class='choiceType' name='choices' value='" + val + "'>" + choi + "<br></div>";
 }
+
+
 function checkAnswer() {
 
-    var choice = -1;
+    var choice = 0;
     var choices = document.getElementsByName("choices");
-    var selectedAnswer = document.querySelector('input[type=radio]:checked');
+    var userAnswer = document.querySelector('input[type=radio]:checked');
 	var correctAnswer =[];
 	var incorrectAnswer=[];
 
-    if (!selectedAnswer) { //Error Handling
+    if (!userAnswer) { //Error Handling
         alert("Please Select an Answer!") 
     } else {
         for (var i = 0; i < choices.length; ++i) {
@@ -42,26 +44,31 @@ function checkAnswer() {
                 choice = choices[i].value;
             }
         }
-        if (choice == answers[pos]) { // comparing userinput with answers
-			correctAnswer.push(choice);
+        if (choice == answers[place]) { // comparing userinput with answers
+			correctAnswer.push(questions[place][choice]);
+			console.log(choice);
             correct++;
             score += 2;
         }else {
-			incorrectAnswer.push(choice);
+			incorrectAnswer.push(questions[place][choice]);
             score -= 1;
         }
-
-        pos++;  // array position incremented
+		
+        place++;  // array place is being incremented
         renderQuestion();
     }
+	var strCor = correctAnswer.toString();
+	var strIncor = incorrectAnswer.toString();
+	console.log(correctAnswer);
+	console.log(incorrectAnswer);
 }
 
 function populateChoices(id){
     var opt = get(id);
-    var quizQuestion = questions[pos][0];
+    var quizQuestion = questions[place][0];
     opt.innerHTML = "<h3>" + quizQuestion + "</h3>";
-    for (var i = 1; i < questions[pos].length; ++i){            // Going through the questions array(iterating)
-        opt.innerHTML += getChoice(questions[pos][i], val[i-1]);
+    for (var i = 1; i < questions[place].length; ++i){            // Going through the questions array(iterating)
+        opt.innerHTML += getChoice(questions[place][i], val[i-1]);
     }
     opt.innerHTML += "<br><div class='buttonContainer'><button onclick='checkAnswer()' class='btn'> Next Question </button></div>"
 }
@@ -71,9 +78,7 @@ function populateChoices(id){
 function renderQuestion() {
     var test = get("test");
     var test_status = get("test_status");
-	var correct_ans = get("correct_ans");
-	var incorrect_ans = get("incorrect_ans");
-    if (pos >= questions.length){
+    if (place >= questions.length){
 
         if (score < 0){
             score = 0; // setting up the minimum score
@@ -83,14 +88,11 @@ function renderQuestion() {
         time = "-"; // Stop the timer once the user has answered all the questions
         test.innerHTML = "<h2> You got " + correct + " out of " + questions.length + " correct and Your Score is " + score + "</h2>"; // Question Counter
         test_status.innerHTML = "Quiz Completed.";
-		correct_ans.innerHTML = "<h2>You got these answers correct: " + correctAnswer.toString() + "</h2>"; //correct answer list
-		incorrect_ans.innerHTML = "<h2> You got these answers incorrect" + incorrectAnswer.toString() + "</h2>"; //incorrectAnswer
         return false;
-
 
     }
 
-    test_status.innerHTML = "Question " + (pos + 1) + " of " + questions.length;
+    test_status.innerHTML = "Question " + (place + 1) + " of " + questions.length;
     populateChoices("test");
 }
 

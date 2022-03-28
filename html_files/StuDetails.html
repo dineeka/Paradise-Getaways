@@ -1,41 +1,70 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Paradise Getaways</title>
+	<title>Student Details</title>
+	<link rel="icon" href="../images/1.png" type="image/png">
 	<style>
+	h1{
+	text-align:center;
+	}
+	.handler{
+	display:block;
+	margin-left:auto;
+	margin-right: auto;
+	}
 	.container{
-	float: right;
-	padding-left:auto;
-	padding-right:auto;
+	float: left;
 	}
 	.stu{
 	font-size:20px;
-
+	text-align: center;
 	}
 	</style>
 </head>
 <body>
-	<h1>About us </h1><br>
+<div class="navbar">
+	     <link rel="stylesheet" href="../css_files/my stylesheet.css">
+		 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+			<a id = "coverpage" href="Cover Page.html"><img id = "coverimage" src="../images/1.png" alt="Logo"></a>
+			<a class = "active" href = "Cover Page.html"><i class = "fa fa-home"></i></a>
+			<a href = "#"><i class = "fa fa-map"></i></a>
+			<a href = "#"><i class="fa fa-pencil-square-o"></i></a>
+			<a href = "#"><i class="fa fa-cart-plus"></i></a>
+			<a href = "#"><i class = "fa fa-picture-o"></i></a>
+			<a href = "#"><i class = "fa fa-question-circle"></i></a>
+		</div>
+	
+	<h1 style="margin-top:80px;">About us </h1>
+	<p>
+	<div class = "handler">
 	<div class="container">
-		<img src="1.png" alt="Picture of Harindi"  onmousemove="content1()" onmouseout="clear()" id="img1">
+		<img src="../images/1.png" alt="Picture of Harindi"  onmousemove="content1()"  id="img1">
 		<div class = "stu" id="stu1">
 		</div>
 	</div>
 	<div class="container">
-		<img src="1.png"  alt="Picture of Diadri" onmousemove="content2()" id="img2">
+		<img src="../images/1.png"  alt="Picture of Diadri" onmousemove="content2()" id="img2">
 		<div class="stu" id="stu2">
 		</div>
 	</div>
 	<div class="container">
-		<img src="1.png"  alt="Picture of Dineeka" onmousemove="content3()" id="img3">
+		<img src="../images/1.png"  alt="Picture of Dineeka" onmousemove="content3()" id="img3">
 		<div class="stu" id="stu3">
 		</div>
 	</div>
 	<div class="container">
-		<img src="1.png"  alt="Picture of Budwika" onmousemove="content4()"id="img4">
+		<img src="../images/1.png"  alt="Picture of Budwika" onmousemove="content4()"id="img4">
 		<div class="stu" id="stu4">
 		</div>	
 	</div>
+	</div>
+	</p>
+	<br>
+	<br>
+	<footer>
+    Page Editor: <a href="editorPage.html">Dineeka Wimalaratne</a><br>
+    Copyright &copy; All Rights Reserved
+	</footer>
 	<script>
 		function content1(){
 			document.getElementById("stu1").innerHTML= "Harindi Weerasinghe, Student1";
