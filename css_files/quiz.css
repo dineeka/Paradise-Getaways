@@ -1,16 +1,56 @@
 .container{
-	display:block;
-	margin-left:auto;
-	margin-right:auto;
+	align-items: center;
+    margin: 0 auto;
+    width: 200px;
+    text-align: left;
 }
 h1{
-	text-align:center;
+	font-size: 40px;
+    font-family: "Georgia";
+    letter-spacing: 2px;
+    text-align: center;
+    color: #00ffff;
+    background-color: teal;
+    padding: 30px
 }
 h3{
 	text-align:center;
 }
 .buttonContainer{
-	display:block;
-	margin-left:auto;
-	margin-right:auto;
+	 font-size: 25px;
+    text-align: center;
+}
+.test{
+    display: flex;
+    background: #2e86de;
+}
+.btn{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 6px;
+    width: 20%;
+    text-align: center;
+    margin-bottom: 3px;
+    text-decoration: none;
+    color: white;
+    background: #8a2be2;
+    border-radius: 15px;
+}
+text{
+    align-items: center;
+    font-family: arial Black;
+    border: 5px solid #ffa500;
+    border-radius: 15px;
+    font-weight: bold;
+    font-size: 20px;
+}
+h2{
+    font-family: 'poppins', sans-serif;
+    font-size: 40px;
+    text-align: center;
+}
+h3{
+    font-family: 'poppins', sans-serif;
+    font-size: 30px;
+    text-align: center;
 }

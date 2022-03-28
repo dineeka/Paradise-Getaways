@@ -19,6 +19,16 @@
 	font-size:20px;
 	text-align: center;
 	}
+	#myfooter{
+	text-align:center;
+	}
+	img{
+	width:375px;
+	}
+	#edt{
+	text-align:center;
+	margin-top: 400px;
+	}
 	</style>
 </head>
 <body>
@@ -35,8 +45,8 @@
 		</div>
 	
 	<h1 style="margin-top:80px;">About us </h1>
-	<p>
-	<div class = "handler">
+	
+	<div class = "handler" style="width:100%;">
 	<div class="container">
 		<img src="../images/1.png" alt="Picture of Harindi"  onmousemove="content1()"  id="img1">
 		<div class = "stu" id="stu1">
@@ -58,13 +68,13 @@
 		</div>	
 	</div>
 	</div>
-	</p>
+	
 	<br>
 	<br>
-	<footer>
-    Page Editor: <a href="editorPage.html">Dineeka Wimalaratne</a><br>
+	<p id="edt">
+    Page Editor: <a href="Student3details.html">Dineeka Wimalaratne</a><br>
     Copyright &copy; All Rights Reserved
-	</footer>
+	</p>
 	<script>
 		function content1(){
 			document.getElementById("stu1").innerHTML= "Harindi Weerasinghe, Student1";

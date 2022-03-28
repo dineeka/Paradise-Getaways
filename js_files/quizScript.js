@@ -73,8 +73,6 @@ function populateChoices(id){
     opt.innerHTML += "<br><div class='buttonContainer'><button onclick='checkAnswer()' class='btn'> Next Question </button></div>"
 }
 
-
-
 function renderQuestion() {
     var test = get("test");
     var test_status = get("test_status");
@@ -88,6 +86,11 @@ function renderQuestion() {
         time = "-"; // Stop the timer once the user has answered all the questions
         test.innerHTML = "<h2> You got " + correct + " out of " + questions.length + " correct and Your Score is " + score + "</h2>"; // Question Counter
         test_status.innerHTML = "Quiz Completed.";
+		if (score>=10){
+			document.body.style.backgroundColor = "PaleGreen";
+		}else{
+			document.body.style.backgroundColor = "PaleVioletRed";
+		}
         return false;
 
     }
@@ -107,6 +110,11 @@ function quizTimer(){
         alert("Time is Up")
         test.innerHTML = "<h2> You got " + correct + " out of " + questions.length + " correct and Your Score is " + score + "</h2>"; // Question Counter
         test_status.innerHTML = "Quiz Completed.";
+		if (score>=10){
+			document.body.style.backgroundColor = "PaleGreen";
+		}else{
+			document.body.style.backgroundColor = "PaleVioletRed";
+		}
         return false;
     }
 }
