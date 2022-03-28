@@ -3,13 +3,6 @@ body, html {
     margin: 0;
 }
 
-.navbar{
-    position:fixed;
-    top:0;
-    width:100%;
-	background-color: #555; 
-	overflow: auto;
-}
 
 #coverimage{
     width: 60px;
@@ -24,19 +17,7 @@ body, html {
     float:left;
 }
 
-.navbar a {
-   float: left; 
-   text-align: center; 
-   width: 14%; 
-   padding: 12px 0; 
-   transition: all 0.3s ease; 
-   color: white; 
-   font-size: 36px; 
-}
 
-.navbar a:hover {
-  background-color: #000; 
-}
 
 .active {
   background-color: #04AA6D; 
