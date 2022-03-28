@@ -44,13 +44,26 @@
 		text-align: center;
 		font-family:georgia;
 		color:#33331a;
-		font-size:25px;
+		font-size:15px;
 		}
+		.navbar a {
+         float: left; 
+         text-align: center; 
+         width: 22%; 
+         padding: 12px; 
+         transition: all 0.3s ease; 
+         color: white; 
+         font-size: 18px; 
+        }
+
+        .navbar a:hover {
+         background-color: #000; 
+         }
 	 </style>
   </head>
   <body>
      <div class="navbar">
-	     <link rel="stylesheet" href="../css_files/my stylesheet.css">
+	     <link rel="stylesheet" href="../css_files/mystylesheet.css">
 		 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 			<a id = "coverpage" href="Cover Page.html"><img id = "coverimage" src="../images/1.png" alt="Logo"></a>
 			<a class = "active" href = "Cover Page.html"><i class = "fa fa-home"></i></a>
@@ -60,9 +73,14 @@
 			<a href = "#"><i class = "fa fa-picture-o"></i></a>
 			<a href = "#"><i class = "fa fa-question-circle"></i></a>
 	 </div>
-
+	 <div class = "navbar_cities">
+	     <a href = "#Anuradhapura">Anuradhapura</a>
+		 <a href = "#Kandy">Kandy</a>
+		 <a href = "#NuweraEliya">Nuwera Eliya</a>
+		 <a href = "#Galle">Galle</a>
+     </div>
 	
-	<h1 style = "margin-top:80px;"><center>Anuradhapura Scared City of Sri Lanka</center></h1>
+	<h1 style = "margin-top:80px;" id = "Anuradhapura"><center>Anuradhapura Sacred City of Sri Lanka</center></h1>
 	<img src = "../images/Anuradhapura 1.jpg" alt = "The scared city of Anuradhapura" width = "700" height = "300" style = "display: block; margin-left:auto; margin-right:auto;">
 	<p><h3> What is Anuradhapura? </h3></p>
 	<p> Anuradhapura is the first capital of Sri Lanka located in north central province of Sri Lanka. It is one of the ancient capitals of Sri Lanka which was the center of Theravada Buddhism for many centuries. Due to its ruins of an ancient Sri Lankan civilization UNESCO named it as a UNESCO world heritage site in 1982 under the name of Sacred City of Anuradhapura.</p>
@@ -77,7 +95,7 @@
 	<img src = "../images/Anuradhapura 3.jpg" alt = "The scared city of Anuradhapura" width = "300" height = "300" style = "padding-left: 30px">
 	<img src = "../images/Anuradhapura 4.jpg" alt = "The scared city of Anuradhapura" width = "300" height = "300" style = "padding-left: 50px">
 	<img src = "../images/Anuradhapura 5.jpg" alt = "The scared city of Anuradhapura" width = "300" height = "300" style = "padding-left: 50px" >
-	<img src = "../images/Anuradhapura 6.jpg" alt = "The scared city of Anuradhapura" width = "300" height = "300" style = "padding-left: 50px" >
+	<img src = "../images/Anuradhapura 6.jpg" alt = "The scared city of Anuradhapura" width = "300" height = "300" style = "padding-left: 50px" id = "Kandy">
 	
 		
 	
@@ -96,7 +114,7 @@
 		both Sri Lankan and international visitors. </p>
 		
 	<h3> Royal Botanical Gardens, Peradeniya</h3>
-	<img src="../images/BotanicalGarden.jpg" alt = "A picture of the botanical garden" width= "500" height="300" class="Kandyimg">
+	<img src="../images/BotanicalGarden.jpg" alt = "A picture of the botanical garden" width= "500" height="300" class="Kandyimg" >
 	<p>If these gardens feel insanely grand, it’s because they were formerly reserved exclusively for Kandyan royals to stroll through before they were 
 	transformed into the Botanic Gardens in1821 at the behest of the ruling British.
 	Today, even measly commoners like us are allowed to wander the grounds, which are now home to over 10,000 trees spread across 60 hectares.
@@ -124,7 +142,7 @@
 	<p> Once the king's personal garden, Udawattakele is now an urban forest and wildlife sanctuary home to several species of mammals,
 	reptiles, and other animals. There's a hiking path within the sanctuary, which is about a 5km round trip. </p>
 	<h3>The Kandy Lake</h3>
-	<img src="../images/Lake.jpg" alt = "A picture of the kandy lake" style = "width: 500;" height="300" class="Kandyimg">
+	<img src="../images/Lake.jpg" alt = "A picture of the kandy lake" style = "width: 500;" height="300" class="Kandyimg" id = "NuweraEliya">
 	<p> Right at the heart of Kandy is the Kandy Lake; surprisingly peaceful despite the bustling road that winds around it, and 
 	the backdrop to many of the city’s major attractions including the Temple of the Tooth Relic, and Udawattakele Forest reserve. 
 	It takes about an hour to walk the lake’s circumference (just over 3kms) </p>
@@ -191,7 +209,7 @@ through the silent plain of Horton plain to the end of the world. </p>
  or trotting around on a pony. However be warned that jet skis and speedboats disturb the 
 peace on weekends, and during holiday times expect big crowds and funfairs. There are picnic tables, a small restaurant and a snack
  bar. Boat hire is from the smaller adjoining lake on the opposite side of the road from the main lake.</p>
-<img src="../images/Gregory-Lake.jpg" alt="Gregory-Lake.jpg" width = "350" height = "300" style = "display: block; margin-left:auto; margin-right:auto;">
+<img src="../images/Gregory-Lake.jpg" alt="Gregory-Lake.jpg" width = "350" height = "300" style = "display: block; margin-left:auto; margin-right:auto;" id = "Galle">
 	
 	
 	
