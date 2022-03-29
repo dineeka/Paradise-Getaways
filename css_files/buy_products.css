@@ -1,7 +1,7 @@
-body, html {
+/*body, html {
     height: 100%;
     margin: 0;
-}
+}*/
 
 /*#coverimage{
     width: 60px;
@@ -20,7 +20,7 @@ body, html {
   background-color: #04AA6D; 
 }*/
 
-.marq{
+/*marquee {
 	color:white;
 	background-color:black;
 	width:780px;
@@ -29,23 +29,19 @@ body, html {
 	font-size:150%;
 	margin-left:400px;
 	margin-top: 150px;
-}
+}*/
 
-.marq1{
-	
-}
-
-h1{
+.topic {
 	text-align: center;
-	color: #b35900;
+	color: #e6b800;
 	width: 25%;
-	font-size: 250%;
-	margin-left: 20px;
-	margin-top: 220px;	
+	font-size: 200%;
+	margin-left: 40px;
+	margin-top: 200px;	
 }
 
 .container{
-	position:relative;
+	/*position:relative;*/
 	width:850px;
 	height:580px;
 	margin-top:-200px;
@@ -125,7 +121,7 @@ h1{
 	background-color:#ffecb3;
 }
 
-img{
+.img1{
 	width:280px;
 	height:280px;
     float:left;
@@ -165,6 +161,7 @@ img{
 	height: 300px;
 	width: 300px;
 	border: 5px solid black;
+	float: left;
 }
 			
 .description{
@@ -365,17 +362,19 @@ img{
     line-height: 25px;
     margin-left: 20px;
 }
-.logo{
-	height: 100px;
-	width: 100px;
-	background-color: black;
-}
 
-.logo1{
+.logo{
 	background-color: black;
 	width: 70px;
 	height: 70px; 
 	margin-bottom: 100px;
+}
+
+.logo1{
+	height: 100px;
+	width: 100px;
+	background-color: black;
+	margin-right: 60px;
 }
 /*.logo2{
 	background-color: black;

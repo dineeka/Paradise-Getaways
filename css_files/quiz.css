@@ -1,7 +1,10 @@
+body{
+	background-color: #faf0e6;
+}
 .container{
 	align-items: center;
     margin: 0 auto;
-    width: 200px;
+    width: 300px;
     text-align: left;
 }
 h1{
@@ -60,4 +63,8 @@ h3{
     padding: 3px;
     background-color: teal;
     color: black;
+	bottom:0;
+}
+span{
+	font-size:20px;
 }
