@@ -31,10 +31,6 @@ body, html {
 	margin-top: 150px;
 }
 
-.marq1{
-	
-}
-
 h1{
 	text-align: center;
 	color: #b35900;
@@ -125,7 +121,7 @@ h1{
 	background-color:#ffecb3;
 }
 
-img{
+.img1{
 	width:280px;
 	height:280px;
     float:left;
@@ -365,17 +361,19 @@ img{
     line-height: 25px;
     margin-left: 20px;
 }
-.logo{
-	height: 100px;
-	width: 100px;
-	background-color: black;
-}
 
-.logo1{
+.logo{
 	background-color: black;
 	width: 70px;
 	height: 70px; 
 	margin-bottom: 100px;
+}
+
+.logo1{
+	height: 100px;
+	width: 100px;
+	background-color: black;
+	margin-right: 60px;
 }
 /*.logo2{
 	background-color: black;
