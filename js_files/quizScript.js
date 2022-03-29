@@ -24,7 +24,7 @@ function get(x) {
 }
 var val = ["1", "2", "3", "4"];
 function getChoice(choi, val){
-    return "<div class='container'><input type='radio' class='choiceType' name='choices' value='" + val + "'>" + choi + "<br></div>";
+    return "<div class='container'><input type='radio' class='choiceType' name='choices' value='" + val + "'><span>" + choi + "</span><br></div>";
 }
 
 var Cor =[];
