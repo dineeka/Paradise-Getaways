@@ -11,65 +11,62 @@
 	
 	<body>
 	
-	<div class="navbar">
-         <link rel="stylesheet" href="../css_files/mystylesheet.css">
-		 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-         <a id = "coverpage" href="coverpage.html"><img id = "coverimage" src="../images/1.png" alt="Logo"></a>
-         <a href = "coverpage.html"><i class = "fa fa-home"></i></a>
-         <a href = "sitemap.html"><i class = "fa fa-map"></i></a>
-         <a href = "quizHome.html"><i class="fa fa-pencil-square-o"></i></a>
-		 <a href = "buy_products.html"><i class="fa fa-cart-plus"></i></a>
-		 <a class="active" href = "gallery.html"><i class = "fa fa-picture-o"></i></a>
-		 <a href = "queryfinal.html"><i class = "fa fa-question-circle"></i></a>
-     </div>
-	
-	 <div id="menu">
-		<div id="changeColor">
-			<form>Background Color:
-				<select name="bgcolors" onchange="changeBackgroundColor(this)">
-					<option value="white" selected>White</option>
-					<option value="DarkGray">Gray</option>
-					<option value="DarkCyan">Cyan</option>
-					<option value="LightGreen">Green</option>
-					<option value="black">Black</option>
-				</select>
-			</form>
-			<br>
-			<form>Text Color:
-				<select name="textcolor" size="1" onChange="updateTextColour(this)">
-					<option value="black" selected>Black</option>
-					<option value="PeachPuff">Light Red</option>
-					<option value="PowderBlue">Blue</option>
-					<option value="SpringGreen">Green</option>
-					<option value="white">White</option>
-				</select>
-			</form>
+		<div class="navbar">
+			<link rel="stylesheet" href="../css_files/mystylesheet.css">
+			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+			<a id = "coverpage" href="coverpage.html"><img id = "coverimage" src="../images/1.png" alt="Logo"></a>
+			<a href = "coverpage.html"><i class = "fa fa-home"></i></a>
+			<a href = "sitemap.html"><i class = "fa fa-map"></i></a>
+			<a href = "quizHome.html"><i class="fa fa-pencil-square-o"></i></a>
+			<a href = "buy_products.html"><i class="fa fa-cart-plus"></i></a>
+			<a class="active" href = "gallery.html"><i class = "fa fa-picture-o"></i></a>
+			<a href = "queryfinal.html"><i class = "fa fa-question-circle"></i></a>
 		</div>
-	
-		<div id="headingstyle"><h1>Gallery</h1></div>
-	</div>
 		
-	<div id="gallery">
-	<img id="img1" class="tbimg" onmouseover="mouseOver(img1.src, img1.alt)"  src="../images/kandyperahera.jpg" alt="Kandy Perahera, Kandy." >
-	<img id="img2" class="tbimg" onmouseover="mouseOver(img2.src, img2.alt)"  src="../images/adamspeak.jpg" alt="Adams Peak, Rathnapura.">
-	<img id="img3" class="tbimg" onmouseover="mouseOver(img3.src, img3.alt)"  src="../images/sigiriya.jpg" alt="Sigiriya, Dambulla.">
-	<img id="img4" class="tbimg" onmouseover="mouseOver(img4.src, img4.alt)"  src="../images/kandygarden.jpg" alt="Peradeniya Garden, Peradeniya" >
-	<img id="img5" class="tbimg" onmouseover="mouseOver(img5.src, img5.alt)"  src="../images/stiltfishing.jpg" alt="Stilt Fishermen, Galle." >
-	</div>
+		<div id="menu">
+			<div id="changeColor">
+				<form>Background Color:
+					<select name="bgcolors" onchange="changeBackgroundColor(this)">
+						<option value="white" selected>White</option>
+						<option value="DarkGray">Gray</option>
+						<option value="DarkCyan">Cyan</option>
+						<option value="LightGreen">Green</option>
+						<option value="black">Black</option>
+					</select>
+				</form>
+				<br>
+				<form>Text Color:
+					<select name="textcolor" size="1" onChange="changeTextColour(this)">
+						<option value="black" selected>Black</option>
+						<option value="PeachPuff">Light Red</option>
+						<option value="PowderBlue">Blue</option>
+						<option value="SpringGreen">Green</option>
+						<option value="white">White</option>
+					</select>
+				</form>
+			</div>
 		
-	<div id="zoom">
-		<img id="img01" src="../images/kandyperahera.jpg" alt="Zoom Picture">
-		<p id="description">Kandy Perahera, Kandy.</p>
-	</div>
-	
-	<hr>
-	<br>
-	<br>
-	<p id="footer">
-		Last Edited: 28.02.2022<br>
-		Page Editor: <a id="footerlink" href="student4details.html">Budwika Egodawatta</a><br>
-		Copyright &copy; All Rights Reserved
-	</p>
+			<div id="headingstyle"><h1>Gallery</h1></div>
+		</div>
+			
+		<div id="gallery">
+		<img id="img1" class="tbimg" onmouseover="mouseOver(img1.src, img1.alt)"  src="../images/kandyperahera.jpg" alt="Kandy Perahera, Kandy." >
+		<img id="img2" class="tbimg" onmouseover="mouseOver(img2.src, img2.alt)"  src="../images/adamspeak.jpg" alt="Adams Peak, Rathnapura.">
+		<img id="img3" class="tbimg" onmouseover="mouseOver(img3.src, img3.alt)"  src="../images/sigiriya.jpg" alt="Sigiriya, Dambulla.">
+		<img id="img4" class="tbimg" onmouseover="mouseOver(img4.src, img4.alt)"  src="../images/kandygarden.jpg" alt="Peradeniya Garden, Peradeniya" >
+		<img id="img5" class="tbimg" onmouseover="mouseOver(img5.src, img5.alt)"  src="../images/stiltfishing.jpg" alt="Stilt Fishermen, Galle." >
+		</div>
+			
+		<div id="zoom">
+			<img id="img01" src="../images/kandyperahera.jpg" alt="Zoom Picture">
+			<p id="description">Kandy Perahera, Kandy.</p>
+		</div>
+		
+		<p id="footer">
+			Last Edited: 28.02.2022<br>
+			Page Editor: <a id="footerlink" href="student4details.html">Budwika Egodawatta</a><br>
+			Copyright &copy; All Rights Reserved
+		</p>
 	
 
 	</body>

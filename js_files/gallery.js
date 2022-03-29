@@ -6,7 +6,7 @@ function changeBackgroundColor(event1) //function to chnage the background color
 
 
 
-function updateTextColour(event2)  //function to change the text color of the page
+function changeTextColour(event2)  //function to change the text color of the page
 {
 
 	var color = event2.value;
