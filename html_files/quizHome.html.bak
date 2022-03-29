@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Quiz</title>
+	<link rel="icon" href="../images/1.png" type="image/png">
+	<link rel="stylesheet" href="../css_files/quiz.css">
+	<style>
+		body{
+		background-image:url("../images/quizbg.jpg");
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		}
+	</style>
+</head>
+<body>
+	<div class="navbar">
+	     <link rel="stylesheet" href="../css_files/mystylesheet.css">
+		 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+			<a id = "coverpage" href="Cover Page.html"><img id = "coverimage" src="../images/1.png" alt="Logo"></a>
+			<a class = "active" href = "Cover Page.html"><i class = "fa fa-home"></i></a>
+			<a href = "#"><i class = "fa fa-map"></i></a>
+			<a href = "#"><i class="fa fa-pencil-square-o"></i></a>
+			<a href = "#"><i class="fa fa-cart-plus"></i></a>
+			<a href = "#"><i class = "fa fa-picture-o"></i></a>
+			<a href = "#"><i class = "fa fa-question-circle"></i></a>
+	</div>
+	<h1 style="margin-top:60px"> Quiz </h1>
+	<div id="start">
+		<h2> Let's put your memory to the test </h2>
+		<h3> Click the button to start the quiz </h3>
+		<div class='buttonContainer'>
+		<a href="quiz.html"><button class="stBtn"> Start Quiz </button></a>
+		</div>
+	</div>
+	<p id="edt" style="margin-top:275px;">Page Editor: <a href="Student3details.html">Dineeka Wimalaratne</a><br>
+		Copyright &copy; All Rights Reserved
+	</p>
+</body>

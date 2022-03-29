@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+   <meta charset="UTF-8">
+   <title>Paradise Getaways</title>
+   <link rel="icon" href="../images/1.png" type="image/png">
+   <link rel = "stylesheet" href = "../css_files/mystylesheet.css">
+   
+ </head>
+ <body>
+
+     <div class="bg">
+       <div class="caption">
+          <span class="border">Reaching incredible destinations within your reach</span>
+       </div>
+     </div>
+
+     <div class="navbar">
+         <link rel="stylesheet" href="../css_files/mystylesheet.css">
+		 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+         <a id = "coverpage" href="coverpage.html"><img id = "coverimage" src="../images/1.png" alt="Logo"></a>
+         <a class = "active" href = "coverpage.html"><i class = "fa fa-home"></i></a>
+         <a href = "sitemap.html"><i class = "fa fa-map"></i></a>
+         <a href = ".html"><i class="fa fa-pencil-square-o"></i></a>
+		 <a href = "#"><i class="fa fa-cart-plus"></i></a>
+		 <a href = "gallery.html"><i class = "fa fa-picture-o"></i></a>
+		 <a href = ".html"><i class = "fa fa-question-circle"></i></a>
+     </div>
+	 
+	<h1 id="header">Seek Eye Catching Destinations</h1>
+	 <div class="centeralign">
+		 <div class="gal" >
+			<img src="../images/Sigiriya_rock.png" alt="SigiriyaRock" class="imgcat1">
+			<img src="../images/ninearch.png" alt="Nine Arch Bridge" class="imgcat2">
+			<img src="../images/nanuoya.png" alt="Nanuoya" class="imgcat2">
+		 </div>
+		 
+		 <div class="gal">
+			<img src="../images/nelum_kuluna.png" alt="Nelum Kuluna" class="imgcat2">
+			<img src="../images/elephant.png" alt="Elephants" class="imgcat2">
+			<img src="../images/nine_arch_bridge.png" alt="Nine Arch Bridge" class="imgcat1">
+		 </div>
+	 </div>
+	 <br>
+	 <br>
+	 <h2 class="header2"> Travelling methods you can use in Sri Lanka </h2>
+	 <div>
+		<table id="table">
+			<tr>
+				<td class="cellwidth"><img src="../images/tuktuk.png" alt="tuktuk.png" class="trpimg"></td>
+				<td class="cellwidth"><img src="../images/bus.png" alt="bus.png" class="trpimg"></td>
+				<td class="cellwidth"><img src="../images/train.png" alt="train.png" class="trpimg"></td>
+				<td class="cellwidth"><img src="../images/taxi.png" alt="taxi.png" class="trpimg"></td>
+				<td class="cellwidth"><img src="../images/cycle.png" alt="cycle.png" class="trpimg"></td></tr>
+			<tr><td id="para">Literally three-wheeled open vehicles. Though these can be more expensive than the public busses, 
+				it definitely is worth the ride.</td>
+				<td id="para">As the cheapest transportation method, This would be the best option to travel smaller distances as well as longer distance. </td>
+				<td id="para">Trains are the best method for travelling longer distances. 
+				Sri Lankan train rides provides amazing views whether it be of the beaches or the mountains.</td>
+				<td id="para">Taxis  can be more expensive but traveling in an air conditioned taxi 
+				is worth it if you are still getting used to the sunny weather in the island.</td>
+				<td id="para">There are plenty of places where you can quickly rent a cycle if you feel like it. A lot of 
+				locals still use cycles for thier transportation as well.</td></tr>
+		</table>
+	</div>
+		<br>
+		<br>
+	<div class="centeralign">
+		<div class="services">
+			<a href="cities.html" class="link1">
+				<img src="../images/mirissa.png" alt="mirissa.png" class="linkimg">
+				<p>Destinations</p>
+			</a>
+		</div>
+		<div class="services">
+			<a href="https://www.srilankan.com/en_uk/special-offers/promotion/why-book-on-srilankan.com" class="link1">
+				<img src="../images/airticket.png" alt="airticket.png" class="linkimg">
+				<p>Flight Booking</p>
+			</a>
+		</div>
+		<div class="services">
+			<a href="https://www.eta.gov.lk/slvisa/" class="link1">
+				<img src="../images/visa.png" alt="visa.png" class="linkimg" >
+				<p>Applying Visa</p>
+			</a>
+		</div>
+		<div class="services">
+			<a href="https://www.booking.com/" class="link1">
+				<img src="../images/accomadation.png" alt="accomadation.png" class="linkimg">
+				<p>Accomadation</p>
+			</a>
+		</div>
+	</div>	
+		
+	 <footer>
+	     <div class = "row">
+		     <div class = "col">
+			     <h3>About Us <div class = "underline"></div></h3>
+			     <p> Paradise Getaways is a tourism information website which contains information related to different cities in Sri Lanka and various interactive quizzes to improve knowledge on these cities.</p>
+			 </div>
+			 <div class = "col">
+			     <h3>General Information <div class = "underline"></div></h3>
+				 <p>Tourism Hotline:1912</p>
+				 <p>Ambulance Services:1990</p>
+				 <p>Police Emergency Services:112</p>
+			 </div>
+			 <div class = "col">
+			     <h3>Quick Links <div class = "underline"></div></h3>
+				 <ul>
+				     <li><a href ="">Home</a></li>
+					 <li><a href ="">Site Map</a></li>
+					 <li><a href ="">Test your knowledge - Quiz</a></li>
+					 <li><a href ="">Buy Products</a></li>
+					 <li><a href ="">Your Queries</a></li>
+				 </ul>
+			 </div>
+			 <div class = "col">
+			     <h3>Other Information <div class = "underline"></div></h3>
+				 <ul class = "final">
+				     <li><a href ="https://www.sltda.gov.lk/en">Sri Lanka Tourism Development Authority</a></li>
+					 <li><a href ="https://www.srilanka.travel/">Sri Lanka Tourism Promotion Bereau </a></li>
+					 <li><a href ="https://www.srilankan.com/en_uk/us">Sri Lanka Airlines</a></li>
+					 <li><a href ="https://www.booking.com/">Booking.com</a></li> 
+				 </ul>
+			 </div>
+		 </div>
+		 <hr>
+		 <p class = "copyright">Paradise Getaways © 2022 - All rights reserved</p>
+	 </footer>
+ </body>
+</html>

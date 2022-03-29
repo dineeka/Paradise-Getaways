@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Student Details</title>
+	<link rel="icon" href="../images/1.png" type="image/png">
+	<style>
+	h1{
+	text-align:center;
+	}
+	.handler{
+	text-align:center;
+	width:100%;
+	}
+	.container{
+	display:inline-block;
+	width:23%;
+	}
+	.stu{
+	font-size:20px;
+	text-align: center;
+	}
+	#myfooter{
+	text-align:center;
+	}
+	img{
+	width:95%;
+	}
+	#edt{
+	text-align:center;
+	margin-top: 150px;
+	}
+	
+	</style>
+</head>
+<body>
+<div class="navbar">
+	     <link rel="stylesheet" href="../css_files/mystylesheet.css">
+		 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+			<a id = "coverpage" href="Cover Page.html"><img id = "coverimage" src="../images/1.png" alt="Logo"></a>
+			<a class = "active" href = "Cover Page.html"><i class = "fa fa-home"></i></a>
+			<a href = "#"><i class = "fa fa-map"></i></a>
+			<a href = "#"><i class="fa fa-pencil-square-o"></i></a>
+			<a href = "#"><i class="fa fa-cart-plus"></i></a>
+			<a href = "#"><i class = "fa fa-picture-o"></i></a>
+			<a href = "#"><i class = "fa fa-question-circle"></i></a>
+		</div>
+	
+	<h1 style="margin-top:80px;">About us </h1>
+	
+	<div class = "handler" >
+		<div class="container">
+			<img src="../images/Harindi.jpeg" alt="Picture of Harindi" onmousemove="content1()"  id="img1">
+			<p class = "stu" id="stu1">
+			</p>
+		</div>
+		<div class="container">
+			<img src="../images/Diadri.jpg"  alt="Picture of Diadri" onmousemove="content2()" id="img2">
+			<p class="stu" id="stu2">
+			</p>
+		</div>
+		<div class="container">
+			<img src="../images/Dineeka.jpeg"  alt="Picture of Dineeka" onmousemove="content3()" id="img3">
+			<p class="stu" id="stu3">
+			</p>
+		</div>
+		<div class="container">
+			<img src="../images/Budwika.jpg"  alt="Picture of Budwika" onmousemove="content4()"id="img4">
+			<p class="stu" id="stu4">
+			</p>	
+		</div>
+	</div>
+	
+	<br>
+	<br>
+	<p id="edt">
+    Page Editor: <a href="Student3details.html">Dineeka Wimalaratne</a><br>
+    Copyright &copy; All Rights Reserved
+	</p>
+	<script>
+		function content1(){
+			document.getElementById("stu1").innerHTML= "Harindi Weerasinghe, Student1";
+		}
+		function content2(){
+			document.getElementById("stu2").innerHTML= "Diadri Weerasekara, Student2";
+		}
+		function content3(){
+			document.getElementById("stu3").innerHTML= "Dineeka Wimalaratne, Student3";
+		}
+		function content4(){
+			document.getElementById("stu4").innerHTML= "Budwika Egodawatta, Student4";
+		}	
+	</script>
+</body>
+</html>

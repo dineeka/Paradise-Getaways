@@ -1,0 +1,56 @@
+.container{
+	align-items: center;
+    margin: 0 auto;
+    width: 200px;
+    text-align: left;
+}
+h1{
+	font-size: 40px;
+    font-family: "Georgia";
+    letter-spacing: 2px;
+    text-align: center;
+    color: #00ffff;
+    background-color: teal;
+    padding: 30px;
+}
+h3{
+	text-align:center;
+}
+.buttonContainer{
+	font-size: 25px;
+    text-align: center;
+}
+.test{
+    display: flex;
+    background: #2e86de;
+}
+.btn, .stBtn{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 6px;
+    width: 20%;
+    text-align: center;
+    margin-bottom: 3px;
+    text-decoration: none;
+    color: white;
+    background: #8a2be2;
+    border-radius: 15px;
+}
+
+h2{
+    font-family: 'poppins', sans-serif;
+    font-size: 40px;
+    text-align: center;
+}
+h3{
+    font-family: 'poppins', sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+#edt{
+    position: center;
+    text-align: center;
+    padding: 3px;
+    background-color: teal;
+    color: black;
+}

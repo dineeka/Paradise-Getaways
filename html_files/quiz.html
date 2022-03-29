@@ -1,0 +1,41 @@
+<!DOCTYPE = html>
+<html>
+	<head>
+		<title>Quiz</title>
+		<link rel="icon" href="../images/1.png" type="image/png">
+		<script src= "../js_files/quizScript.js"> </script>
+
+		<link rel="stylesheet" href="../css_files/quiz.css">
+		<script src= "quizScript.js"> </script>
+
+		<script>
+        window.addEventListener("load", renderQuestion, false);
+		</script>
+	</head>
+	<body>
+		<div class="navbar">
+	     <link rel="stylesheet" href="../css_files/mystylesheet.css">
+		 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+			<a id = "coverpage" href="Cover Page.html"><img id = "coverimage" src="../images/1.png" alt="Logo"></a>
+			<a class = "active" href = "Cover Page.html"><i class = "fa fa-home"></i></a>
+			<a href = "#"><i class = "fa fa-map"></i></a>
+			<a href = "#"><i class="fa fa-pencil-square-o"></i></a>
+			<a href = "#"><i class="fa fa-cart-plus"></i></a>
+			<a href = "#"><i class = "fa fa-picture-o"></i></a>
+			<a href = "#"><i class = "fa fa-question-circle"></i></a>
+		</div>
+		<h1 style="margin-top:60px;"> Quiz </h1>
+		 <h3>~Timer~</h3>
+		<h3 id="quizTime"> 60 </h3><br>
+
+		<div id = "result" class = "container result" style="display:none;">
+		</div>
+
+		<h2 id="test_status"> t</h2>
+		<div id="test"></div>
+		<div id="correct_ans"></div>
+		<div id="incorrect_ans"> </div>
+		<p id="edt">Page Editor: <a href="Student3details.html">Dineeka Wimalaratne</a><br>
+		Copyright &copy; All Rights Reserved</p>
+	</body>
+</html>
