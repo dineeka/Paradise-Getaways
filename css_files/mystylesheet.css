@@ -105,7 +105,8 @@ footer{
 	width:fit-content;
 	margin-bottom:40px;
 	position:relative;
-	padding-left:50px;
+	padding-left:20px;
+	text-decoration: underline solid white 30%;
 }
 
 ul li{

@@ -4,7 +4,7 @@
 }
 
 body {
-	background-image: url("Sri Lanka.jpg");
+	background-image: url("../images/Sri_Lanka.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	margin:0;
@@ -86,3 +86,9 @@ input[type="email"]:focus {
 html {
 	overflow:scroll;
 }
+
+.ed_details {
+	background-color: rgb(51, 144, 214);
+	width:100%;
+}
+
