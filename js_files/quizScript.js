@@ -27,6 +27,8 @@ function getChoice(choi, val){
     return "<div class='container'><input type='radio' class='choiceType' name='choices' value='" + val + "'>" + choi + "<br></div>";
 }
 
+var Cor =[];
+var Incor=[];
 
 function checkAnswer() {
 
@@ -46,21 +48,28 @@ function checkAnswer() {
         }
         if (choice == answers[place]) { // comparing userinput with answers
 			correctAnswer.push(questions[place][choice]);
-			console.log(choice);
             correct++;
             score += 2;
         }else {
 			incorrectAnswer.push(questions[place][choice]);
             score -= 1;
         }
-		
         place++;  // array place is being incremented
         renderQuestion();
     }
 	var strCor = correctAnswer.toString();
 	var strIncor = incorrectAnswer.toString();
-	console.log(correctAnswer);
-	console.log(incorrectAnswer);
+	console.log(strCor);
+	console.log(strIncor);
+	Cor.push(strCor);
+	Incor.push(strIncor);
+	console.log(Cor);
+	console.log(Incor);
+	
+}
+
+function eliminateEmpty(elem){
+	return elem != "";
 }
 
 function populateChoices(id){
@@ -70,22 +79,26 @@ function populateChoices(id){
     for (var i = 1; i < questions[place].length; ++i){            // Going through the questions array(iterating)
         opt.innerHTML += getChoice(questions[place][i], val[i-1]);
     }
-    opt.innerHTML += "<br><div class='buttonContainer'><button onclick='checkAnswer()' class='btn'> Next Question </button></div>"
+    opt.innerHTML += "<br><div class='buttonContainer'><button onclick='checkAnswer()' class='btn'>Next Question </button></div>"
 }
 
 function renderQuestion() {
     var test = get("test");
     var test_status = get("test_status");
+	var correct_ans = get("correct_ans");
+	var incorrect_ans = get("incorrect_ans");
     if (place >= questions.length){
 
         if (score < 0){
-            score = 0; // setting up the minimum score
+            score = 0; 
         }
 
         window.clearInterval(update); // End of timer
         time = "-"; // Stop the timer once the user has answered all the questions
         test.innerHTML = "<h2> You got " + correct + " out of " + questions.length + " correct and Your Score is " + score + "</h2>"; // Question Counter
         test_status.innerHTML = "Quiz Completed.";
+		correct_ans.innerHTML = "<h3> You Got These Answers Correct: " + Cor.filter(eliminateEmpty) + " </h3>";
+		incorrect_ans.innerHTML = "<h3> You Got These Answers Incorrect: " + Incor.filter(eliminateEmpty)+ "</h3>" ;
 		if (score>=10){
 			document.body.style.backgroundColor = "PaleGreen";
 		}else{
@@ -110,6 +123,8 @@ function quizTimer(){
         alert("Time is Up")
         test.innerHTML = "<h2> You got " + correct + " out of " + questions.length + " correct and Your Score is " + score + "</h2>"; // Question Counter
         test_status.innerHTML = "Quiz Completed.";
+		correct_ans.innerHTML = "<h3> You Got These Answers Correct: <br>" + Cor.filter(eliminateEmpty) + "</h3>" ;
+		incorrect_ans.innerHTML = "<h3>You Got These Answers Incorrect: <br>" + Incor.filter(eliminateEmpty)+"</h3>";
 		if (score>=10){
 			document.body.style.backgroundColor = "PaleGreen";
 		}else{
