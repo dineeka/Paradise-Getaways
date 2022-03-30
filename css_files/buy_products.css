@@ -32,12 +32,12 @@ html{
 	position:relative;
 }
 
-.container .box1 .imgbox1 img{
+.container .box1 .imgbox1 .img1{
 	max-width:100%;
 	transition:transform 2s;
 }
 
-.container .box1:hover .imgbox1 img{
+.container .box1:hover .imgbox1 .img1{
 	transform:scale(1.2);
 }
 
@@ -50,6 +50,13 @@ html{
 	background:rgba(0,0,0.0,0.8);
 	transform:scaleY(0);
 	transition:transform .5s;
+	float: left;
+	clear: both;
+	font-weight: 600;
+    margin-left: 7%;
+	margin-bottom : 21px;
+	width: 30%;
+    
 }
 
 .container .box1 .infor .content{
@@ -73,7 +80,7 @@ html{
 	color:black;
 	text-align:center;
 	font-family:Comic Sans MS;
-	border:5px solid  black;
+	border:5px solid black;
 	text-align:center;
 	border-radius:15px;
 	margin-left:120px;
