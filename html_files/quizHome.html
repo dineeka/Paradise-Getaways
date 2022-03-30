@@ -31,10 +31,15 @@
 		<h2> Let's put your memory to the test </h2>
 		<h3> Click the button to start the quiz </h3>
 		<div class='buttonContainer'>
-		<a href="quiz.html"><button class="stBtn"> Start Quiz </button></a>
+		<button id ="btn" class="stBtn"> Start Quiz </button>
 		</div>
 	</div>
 	<p id="edt" style="margin-top:300px;">Page Editor: <a href="Student3details.html">Dineeka Wimalaratne</a><br>
 		Copyright &copy; All Rights Reserved</p>
+	<script>
+		document.getElementById("btn").onclick = function(){
+			location.href = "quiz.html";
+		};
+	</script>
 </body>
 </html>
