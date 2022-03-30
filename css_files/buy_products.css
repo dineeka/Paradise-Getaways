@@ -12,7 +12,7 @@ html{
 }
 
 .container{
-	/*position:relative;*/
+	position:relative;
 	width:850px;
 	height:580px;
 	margin-top:-200px;
@@ -22,26 +22,26 @@ html{
 	margin-bottom:20px;
 }
 
-.container .box{
+.container .box1{
 	width:250px;
 	height:260px;
 	margin:10px;
 }
 
-.container .box .imgbox{
+.container .box1 .imgbox1{
 	position:relative;
 }
 
-.container .box .imgbox img{
+.container .box1 .imgbox1 img{
 	max-width:100%;
 	transition:transform 2s;
 }
 
-.container .box:hover .imgbox img{
+.container .box1:hover .imgbox1 img{
 	transform:scale(1.2);
 }
 
-.container .box .info{
+.container .box1 .infor{
 	position:absolute;
 	top:10px;
 	bottom:10px;
@@ -52,7 +52,7 @@ html{
 	transition:transform .5s;
 }
 
-.container .box .info .content{
+.container .box1 .infor .content{
 	color:black;
 	text-align:center;
 	font-family:Shonar Bangla;
@@ -62,7 +62,7 @@ html{
     float:top-left;
 }
 
-.container .box:hover .info{
+.container .box1:hover .infor{
 	transform:scaleY(1);
 }
 
@@ -88,7 +88,7 @@ html{
 	background-color:#ffecb3;
 }
 
-.imgbox a{
+.imgbox1 a{
     text-decoration: none;
 }
 
@@ -98,7 +98,7 @@ html{
     float:left;
 }
 
-.product_sec{
+.pro_sec{
 	border: 5px solid white ;
 	margin-top: 500px;
     margin-left:250px;
@@ -114,7 +114,7 @@ html{
 	background : #ffecb3;
 }
 			
-.product_title{
+.pro_name{
 	border: 5px solid black;
 	border-top: none;
 	border-right: none;
@@ -128,14 +128,14 @@ html{
     font-family: cursive;
 }
 
-.product_image{
+.pro_img{
 	height: 300px;
 	width: 300px;
 	border: 5px solid black;
 	float: left;
 }
 			
-.description{
+.des{
 	background : #ffecb3;
 	border: 5px solid black;
 	border-top: none;
