@@ -1,6 +1,10 @@
+html{
+	background-color: #ffffcc;
+}
+
 .topic {
 	text-align: center;
-	color: #e6b800;
+	color: #e6ac00;
 	width: 25%;
 	font-size: 200%;
 	margin-left: 40px;
@@ -114,7 +118,7 @@
 	border: 5px solid black;
 	border-top: none;
 	border-right: none;
-	background : white;
+	background : #ffd966;
 	padding-left: 100px;
 	font-size: 20px;
 	font-weight: 600;
@@ -274,7 +278,7 @@
     margin-left:250px;
     margin-top:20px;
 	margin-right: 40px;
-	border: 3px solid black;
+	border: 5px solid black;
 }
 
 .text1{
