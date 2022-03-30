@@ -1,36 +1,3 @@
-/*body, html {
-    height: 100%;
-    margin: 0;
-}*/
-
-/*#coverimage{
-    width: 60px;
-    height: 60px;
-}
-
-#coverpage{
-    padding:0;
-    margin-left:0; 
-    background-color:black; 
-    top:0; 
-    float:left;
-}*/
-
-/*.active {
-  background-color: #04AA6D; 
-}*/
-
-/*marquee {
-	color:white;
-	background-color:black;
-	width:780px;
-	height:50px;
-	font-family:MV Boli;
-	font-size:150%;
-	margin-left:400px;
-	margin-top: 150px;
-}*/
-
 .topic {
 	text-align: center;
 	color: #e6b800;
@@ -113,12 +80,12 @@
     font-weight: bold;
 }
 
-.imgbox a{
-    text-decoration: none;
-}
-
 .img_button:hover{
 	background-color:#ffecb3;
+}
+
+.imgbox a{
+    text-decoration: none;
 }
 
 .img1{
@@ -279,9 +246,6 @@
 .item_button1:active{
 	background-color: #6B6B6B;
 }
-
-#productTotal{
-}
 			
 #bill {
 	position: absolute;
@@ -301,7 +265,7 @@
     height: 40px;
 }
 
-.div2{
+.billBox {
     background-color:#ffecb3;
     height:1000px;
     width:500px;	 
@@ -320,6 +284,7 @@
     font-weight:bold;
     color:black;
     margin-top:0px;
+	padding-top:  0px;
 }
 
 .contact{
@@ -375,14 +340,8 @@
 	width: 100px;
 	background-color: black;
 	margin-right: 60px;
+	float: left;
 }
-/*.logo2{
-	background-color: black;
-	width: 213px;
-	height: 100px; 
-	padding-top: 0px;
-	margin-top: 0px;
-}*/
 
 .editor a{
 	text-decoration:none;
@@ -409,80 +368,5 @@ a:active{
 	color: red;
 }
 	
-/*footer{
-	width:100%;
-	position:relative;
-	bottom:0;
-	background:linear-gradient(to right,#00093c,#2d0b00);
-	color:#fff;
-	padding:100px 0 30px;
-	font-size:13px;
-	line-height:20px;
-	box-sizing:border-box;
-}
 
-hr {
-	width:100%;
-	border:0;
-	border-bottom:1px solid #ccc;
-	margin: 20px auto;
-}
-
-.copyright {
-	text-align:center;
-}*/
-
-/*
-.row{
-	width:85%;
-	margin:auto;
-	display:flex;
-	flex-wrap:wrap;
-	align-items:flex-start;
-}
-
-.col{
-	flex-basis:20%;
-	padding:15px;
-}
-
-.col h3{
-	width:fit-content;
-	margin-bottom:40px;
-	position:relative;
-	padding-left:50px;
-}
-
-ul li{
-	list-style:none;
-	margin-bottom:12px;
-	float:left;
-	clear:left;
-}
-
-ul li a {
-	text-decoration:none;
-	color:#fff;
-}
-	
-.final ul li{
-	list-style:none;
-	margin-bottom:12px;
-	float:left;
-	clear:left;
-}
-
-.final ul li a {
-	text-decoration:none;
-	color:#fff;
-}
-.underline {
-	width:100%;
-	height:5px;
-	background:#767676;
-	border-radius:3px;
-	position:absolute;
-	top:25px;
-	left:0;
-}*/
 
