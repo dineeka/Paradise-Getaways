@@ -1,4 +1,8 @@
 var errormessage = " ";
+let my_url = "queryfinal.html";
+document.getElementById("editbtn").onclick = function(){
+	window.location.replace(my_url);
+}
 function validateinputs(field) {
       if(field.name.value=="") {
          errormessage += "Enter your name\n";       //function to detct the empty feilds and give an alert if a feild is empty.
@@ -25,8 +29,4 @@ function validateinputs(field) {
       document.getElementById("emailid").innerHTML="Email :"+document.getElementById("emailtype").value;
       document.getElementById("subjectid").innerHTML="Subject :"+document.getElementById("themetype").value;
       document.getElementById("displayid").innerHTML="Details :"+document.getElementById("displaydetails").value;
-}
-
-function goback() {
-	window.history.back()
 }

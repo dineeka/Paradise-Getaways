@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html lang = "en">
    <head>
      <meta charset="UTF-8">
 	 <title>Query Form</title>
@@ -20,16 +20,16 @@
      </div>
 	 
      <div class = "container">
-	     <form action = "mailto:diadriweerasekera@gmail.com" method = "post">
+	     <form action ="../html_files/Thankyou.html" method = "post">
 		     <h1 id = "query"><em> What are your questions? </em></h1>
 			 <div id = "nameid">
 			     <p> Name: 
-				 <input type = "text" name = "name" id = "username" size = "30">
+				 <input type = "text" name = "name" id = "username" size = "30" placeholder = "Enter your name here">
 				 </p>
 			 </div>
 			 <div id = "emailid">
 			     <p> Email Address:
-				 <input type = "email" name = "email" id = "emailtype" size = "30">
+				 <input type = "email" name = "email" id = "emailtype" size = "30" placeholder = "Enter your Email Address here">
 				 </p>
 			 </div>
 			 <div id = "subjectid">
@@ -46,15 +46,24 @@
 			
              <div id = "displayid">
                  <label> Details of the query </label>
-                 <textarea name = "details" id = "displaydetails" rows = "10" cols = "50"></textarea>
+                 <textarea name = "details" id = "displaydetails" rows = "10" cols = "50" placeholder = "Enter the details of your query here"></textarea>
 				 <input type = "button" id = "viewbtn" value = "View Query" onclick = "validateinputs(this.form)">
 			 </div>
 			 <br>
-			 <input type = "reset" value = "Edit" id = "editbtn"  onclick = "goback()">
+			 <input type = "reset" value = "Edit" id = "editbtn">
 			<br>
 			 <input type = "submit" value = "Send" id = "sendbtn">
 		 </form>
 	 </div>
-	 <script src="Queryfinal.js"></script>
+	 <script src="../js_files/Queryfinal.js"></script>
+	 <div class = "ed_details">
+		 <br><br>
+		 <div class = "img_container">
+		     <a href = "Student_2_page_editor.html"><img src = "../images/personal_details.png" alt = "page editor" style = "height:50px; width: 50px; display:block; margin-left:auto; margin-right:auto;"></a>
+		 </div>
+		 <h3 style = "text-align:center;"> Diadri Weerasekera </h3>	 
+         <h4 style = "text-align:center;">Copyright &copy; All rights reserved</h4>	
+         <br>		 
+		 </div>
    </body>
 </html>
